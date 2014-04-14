@@ -1,6 +1,6 @@
 #Validator
 
-[Back to topics](README.md)
+[Back to topics](README.md#topics)
 
 ## Validating File Upload
 >tags: [image, intervention, extend, validator]
