@@ -11,7 +11,7 @@ This was hardly documented, but the `auth` filter can be found in the `app/filte
 
 ````php
 Route::filter('auth', function () {
-    if (Auth::guest()) return Redirect::route('admin.login');
+    if (Auth::guest()) return Redirect::guest('login'); // update this to whatever you want.
 });
 ````
 
