@@ -1,6 +1,6 @@
 #Blade
 
-[Back to topics](readme.md)
+[Back to topics](README.md)
 
 ## XSS prevention / htmlentities
 >tags: [xss, output, htmlentities, html, blade]
