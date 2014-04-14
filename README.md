@@ -7,6 +7,7 @@ As I began to pick up, I decide that it would be best if I can document them dow
 
 ## Topics
 
+- [Authentication](Authentication.md)
 - [Blade](Blade.md)
 - [Validator](Validator.md)
 
