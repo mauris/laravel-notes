@@ -7,4 +7,9 @@ As I began to pick up, I decide that it would be best if I can document them dow
 
 ## Topics
 
+- [Blade](blob/master/Blade.md)
+- [Validator](/blob/master/Validator.md)
+
 ## Contributing
+
+Feel free to fork and contribute.
