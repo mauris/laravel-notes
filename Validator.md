@@ -1,7 +1,9 @@
 #Validator
 
+[Back to topics](README.md)
+
 ## Validating File Upload
-tags: [image, intervention, extend, validator]
+>tags: [image, intervention, extend, validator]
 
 In most examples, a typical validation code in the controller looks like this:
 
