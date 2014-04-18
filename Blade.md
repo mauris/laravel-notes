@@ -34,3 +34,7 @@ Or you can use the good ol' `isset()` to check if your variable exists
     @if isset($user)
         // ... code code code
     @endif
+
+Or:
+
+    {{ isset($user) ? $user : 'Guest' }}
