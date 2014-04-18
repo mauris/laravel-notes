@@ -38,3 +38,45 @@ Or you can use the good ol' `isset()` to check if your variable exists
 Or:
 
     {{ isset($user) ? $user : 'Guest' }}
+
+## Template Inheritance
+>tags: [inheritance, blade, templating]
+
+We can perform overriding in Blade templating using the `@parent` tag. Let's take the following example:
+
+*app/views/layouts/master.blade.php*:
+````php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{{$title or 'Default Title'}}}</title>
+        @yield('head')
+    </head>
+    <body>
+        @yield('content')
+    </body>
+</html>
+````
+
+*app/views/layouts/users.blade.php*:
+````php
+@extends('layouts.master')
+
+@section('content')
+<div id="UserBar">
+    <a href="{{URL::route('user.profile', array('id' => $user->id))">{{$user->Name}}</a> | <a href="/user/logout">Logout</a>
+</div>
+@stop
+````
+
+*app/views/users/profile.blade.php*:
+````php
+@extends('layouts.user')
+
+@section('content')
+    @parent
+    <h1>{{$user->Name}} Profile</h1>
+@stop
+````
+
+When you override the section with the same section name, you can use the `@parent` tag to get what the parent has for the same section. Use it however you want. 
