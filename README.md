@@ -9,6 +9,7 @@ As I began to pick up, I decide that it would be best if I can document them dow
 
 - [Authentication](Authentication.md)
 - [Blade](Blade.md)
+- [Forms](Forms.md)
 - [Mail](Mail.md)
 - [Validator](Validator.md)
 
