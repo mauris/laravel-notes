@@ -5,6 +5,10 @@ In my quest to learn and build Laravel apps, I find some parts of the official d
 
 As I began to pick up, I decide that it would be best if I can document them down.
 
+## Version
+
+As of now, all documentation is correct and working for Laravel 4.1.x, and some may still work for future Laravel 4.2.x.
+
 ## Topics
 
 - [Authentication](Authentication.md)
