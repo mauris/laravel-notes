@@ -31,3 +31,5 @@ echo storage_path();
 
 ?>
 ````
+
+As usual, these are found in the API and not in the documentation. 
