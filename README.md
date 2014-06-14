@@ -15,6 +15,7 @@ As of now, all documentation is correct and working for Laravel 4.1.x, and some 
 - [Blade](Blade.md)
 - [Forms](Forms.md)
 - [Mail](Mail.md)
+- [Path](Path.md)
 - [Validator](Validator.md)
 
 ## Contributing
