@@ -13,6 +13,7 @@ As of now, all documentation is correct and working for Laravel 4.1.x, and some 
 
 - [Authentication](Authentication.md)
 - [Blade](Blade.md)
+- [Database](Database.md)
 - [Forms](Forms.md)
 - [Mail](Mail.md)
 - [Path](Path.md)
